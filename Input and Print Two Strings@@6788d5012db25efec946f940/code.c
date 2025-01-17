@@ -4,7 +4,7 @@
 
 int main() {
     char arr[100];
-    gets(arr)
+    gets(arr);
     printf("%s",arr);
     return 0;
 }
