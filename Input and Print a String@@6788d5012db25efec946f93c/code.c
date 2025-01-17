@@ -2,8 +2,8 @@
 
 
 int main() {
-    char a;
-    scanf("%s", &a);
-    printf("You entered: %s", a);
+    char arr[10];
+    scanf("%s", &arr);
+    printf("You entered: %s", arr);
     return 0;
 }
