@@ -3,6 +3,6 @@
 int main() {
     char ne;
     scanf("%c",&ne);
-    printf("%c", ne);
+    printf("You entered: %c", ne);
     return 0;
 }
