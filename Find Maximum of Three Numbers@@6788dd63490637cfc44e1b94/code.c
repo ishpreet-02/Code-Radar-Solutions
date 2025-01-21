@@ -10,7 +10,7 @@ int main() {
     else if(y>x>z){
         printf("%d",y);
     }
-    else{
+    else if(z>x>y){
         printf("%d",z);
     }
     return 0;
