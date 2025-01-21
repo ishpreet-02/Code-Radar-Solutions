@@ -6,7 +6,7 @@ int main() {
     if(x>=0&&y<0){
         printf("True");
     }
-    elif(x<=0&&y>0){
+    else if(x<=0&&y>0){
         printf("True");
     }
     else{
