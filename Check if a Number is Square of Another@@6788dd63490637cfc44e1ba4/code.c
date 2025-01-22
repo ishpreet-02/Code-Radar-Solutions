@@ -4,7 +4,7 @@
 int main() {
     int x,y;
     int b=y*y;
-    print("%d",b);
+    printf("%d",b);
     if(x==b){
         printf("Yes");
     }
