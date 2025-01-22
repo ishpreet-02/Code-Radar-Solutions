@@ -7,10 +7,10 @@ int main() {
     if(x%3==0&&x%5==0){
         printf("Divisible by Both");
     }
-    else if(x%3==0&&x%3==0){
+    else if(x%3==0&&x%50!=0){
         printf("Divisible by 3");
     }
-    else{
+    else {
         printf("Divisible by 5");
     }
     return 0;
