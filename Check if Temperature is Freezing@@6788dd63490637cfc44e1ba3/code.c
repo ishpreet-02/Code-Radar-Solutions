@@ -9,6 +9,5 @@ int main() {
     else{
         printf("Above Freezing");
     }
-    printf("%s", welcome());
     return 0;
 }
