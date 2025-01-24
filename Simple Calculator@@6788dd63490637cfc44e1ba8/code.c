@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int c
-    printf("%s", welcome());
+    int c=69;
+    printf("%d", c);
     return 0;
 }
