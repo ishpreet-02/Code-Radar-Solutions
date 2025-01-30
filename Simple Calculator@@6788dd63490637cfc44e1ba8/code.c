@@ -20,7 +20,7 @@ int main() {
             printf("Error");
         }
         else{
-        printf("%f",a/b);
+        printf("%d",a/b);
     }}
     else{
         printf("Error");
