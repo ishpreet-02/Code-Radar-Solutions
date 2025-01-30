@@ -14,9 +14,14 @@ int main() {
         printf("%d",a*b);
 
     }
-    else if(c=='/'){
-        printf("%.3f",a/b);
-    }
+    else if(c=='/')
+    {
+        if(b==0){
+            printf("Error");
+        }
+        else{
+        printf("%f",a/b);
+    }}
     else{
         printf("Error");
     }
