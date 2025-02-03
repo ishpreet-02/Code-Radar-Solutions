@@ -3,8 +3,8 @@
 
 
 int main() {
-    char arr[100];
-    gets(arr);
-    printf("%s",arr);
+    char a,b;
+    scanf("%s %s",&a,&b);
+    printf("You entered: %s and %s",a,b);
     return 0;
 }
