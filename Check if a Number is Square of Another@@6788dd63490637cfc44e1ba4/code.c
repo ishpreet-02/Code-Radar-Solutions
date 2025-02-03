@@ -3,8 +3,7 @@
 int main() {
     int x,y;
     scanf("%d %d",&x,&y);
-    int b=pow(y,2);
-    if(x==b){
+    if(x==y*y){
         printf("Yes");
     }
     else{
