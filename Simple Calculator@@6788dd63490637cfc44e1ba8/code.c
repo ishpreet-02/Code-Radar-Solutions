@@ -22,7 +22,7 @@ int main() {
             printf("error");
         }
         else{
-        printf("%",a/b);
+        printf("%d",a/b);
     }}
     else{
         printf("error");
