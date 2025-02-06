@@ -12,6 +12,13 @@ int main() {
             num++;
 
         }
+        printf("\n");
+        if(n%2==0){
+            num=0
+        }
+        else{
+            num=1;
+        }
         
     }
     return 0;
