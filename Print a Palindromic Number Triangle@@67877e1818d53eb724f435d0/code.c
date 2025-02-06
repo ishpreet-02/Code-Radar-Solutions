@@ -10,8 +10,8 @@ int main(){
 
 
         }
-        for(int k=1;k<=i;k++){
-            printf("%d ",num);
+        for(int k=1;k<=(2*i-1);k++){
+            printf("%d",num);
             num++;
         }
         printf("\n");
