@@ -8,24 +8,10 @@ int main() {
     int num=1;
     for(int i=0;i<n;i++){
         for(int j=0;j<=i;j++){
-            
-            printf("%d ",num);
-            if(num==1){
-                num--;
-            }
-            else{
-                num++;
-
-            }
             printf("%d",num);
-
+            num++;
 
         }
-        printf("\n");
-        if(num>=1){
-            num=0;
-        }
-
         
     }
     return 0;
