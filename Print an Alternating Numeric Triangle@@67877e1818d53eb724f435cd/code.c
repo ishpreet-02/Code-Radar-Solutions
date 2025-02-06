@@ -10,12 +10,7 @@ int main() {
         for(int j=0;j<=i;j++){
             printf("%d",num);
             num++;
-            if(num%2==0){
-                num=0;
-            }
-            if(num%2!=0){
-                num=1;
-            }
+
         }
         printf("\n");
         if(num%2==0){
