@@ -15,7 +15,7 @@ int main(){
             num++;
         }
         
-        for(int k=i+1;k>0;k--){
+        for(int k=i-1;k>0;k--){
             printf("%d",num);
         }
         printf("\n");
