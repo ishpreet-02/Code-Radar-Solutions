@@ -16,7 +16,7 @@ int main() {
         if(num%2==0){
             num=0;
         }
-        else{
+        elif(num%2!=0){
             num=1;
         }
         
