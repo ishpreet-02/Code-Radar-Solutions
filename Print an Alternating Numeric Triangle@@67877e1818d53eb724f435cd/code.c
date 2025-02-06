@@ -8,12 +8,26 @@ int main() {
     int num=1;
     for(int i=0;i<n;i++){
         for(int j=0;j<=i;j++){
+            
             printf("%d ",num);
-            num++;
+            if(num==1){
+                num--;
+            }
+            else{
+                num++;
+
+            }
 
         }
         printf("\n");
-        num=0;
+
+        if(num>0){
+            num=1;
+        }
+        else{
+            num=0;
+
+        }
         
     }
     return 0;
