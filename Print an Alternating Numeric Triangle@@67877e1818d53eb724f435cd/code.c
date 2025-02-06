@@ -13,7 +13,7 @@ int main() {
 
         }
         printf("\n");
-        if(n%2==0){
+        if(num%2==0){
             num=0;
         }
         else{
