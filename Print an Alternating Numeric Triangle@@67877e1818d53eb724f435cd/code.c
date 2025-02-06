@@ -17,10 +17,13 @@ int main() {
                 num++;
 
             }
-            
+
 
         }
         printf("\n");
+        if(num==1){
+            num=1;
+        }
 
         
     }
