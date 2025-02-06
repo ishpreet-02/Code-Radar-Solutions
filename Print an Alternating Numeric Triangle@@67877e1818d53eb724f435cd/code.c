@@ -21,7 +21,7 @@ int main() {
 
         }
         printf("\n");
-        if(num==1){
+        if(num>=1){
             num=1;
         }
 
