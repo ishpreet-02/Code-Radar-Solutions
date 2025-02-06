@@ -22,10 +22,10 @@ int main() {
         printf("\n");
 
         if(num>0){
-            num=1;
+            num=0;
         }
         else{
-            num=0;
+            num=1;
 
         }
         
