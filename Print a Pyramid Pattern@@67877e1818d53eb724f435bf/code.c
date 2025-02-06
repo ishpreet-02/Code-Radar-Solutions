@@ -9,8 +9,10 @@ int main() {
             printf(" ");
             for(int k=0;k<=(2*n-1);k++){
                 printf("*");
-        }}
-        printf("\n");
+            }
+            printf("\n");
+
+        }
     }
 
     return 0;
