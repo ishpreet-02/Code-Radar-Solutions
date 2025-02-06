@@ -10,14 +10,14 @@ int main(){
 
 
         }
-        for(int k=1;k<=(2*i-1);k++){
+        for(int k=1;k<=i;k++){
             printf("%d",num);
             num++;
-            if(num>2){
-                num=1;
-            }
+        }
+        
+        for(int k=i;k>0;k--){
+            printf("%d",&num);
         }
         printf("\n");
-        num=1;
     }
 }
