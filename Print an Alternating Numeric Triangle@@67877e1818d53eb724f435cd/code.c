@@ -18,7 +18,12 @@ int main() {
             }
         }
         printf("\n");
-
+        if(num%2==0){
+            num=0;
+        }
+        if(num%2!=0){
+            num=1;
+        }
         
     }
     return 0;
