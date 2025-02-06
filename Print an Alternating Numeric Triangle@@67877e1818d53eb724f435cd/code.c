@@ -10,6 +10,9 @@ int main() {
         for(int j=0;j<=i;j++){
             printf("%d",num);
             num++;
+            if(num==1){
+                num=0;
+            }
 
         }
         printf("\n");
