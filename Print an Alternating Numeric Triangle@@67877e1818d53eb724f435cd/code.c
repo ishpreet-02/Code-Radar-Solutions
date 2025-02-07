@@ -14,7 +14,7 @@ int main() {
 
         }
         printf("\n");
-        num++;
+        num=0;
 
         
     }
