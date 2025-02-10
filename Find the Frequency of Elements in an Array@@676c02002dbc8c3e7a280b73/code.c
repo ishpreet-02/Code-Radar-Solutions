@@ -11,7 +11,8 @@ int main(){
         arr[i]=a;
     }
     for(int i=0;i<n;i++){
-        int num=arr[i];
+        int num;
+        num=arr[i];
         for(int j=0;j<n;j++){
             if(num=arr[j]){
                 int count =0;
