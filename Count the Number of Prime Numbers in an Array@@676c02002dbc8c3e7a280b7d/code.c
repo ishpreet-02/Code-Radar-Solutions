@@ -8,7 +8,6 @@ int main() {
     int arr[n];
 
     // Input the first element and initialize min and max
-    scanf("%d", &arr[0]);
     int prime =0;
 
     // Read the remaining elements and find min/max in one loop
