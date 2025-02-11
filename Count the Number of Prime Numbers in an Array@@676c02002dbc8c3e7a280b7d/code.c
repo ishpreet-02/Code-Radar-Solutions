@@ -8,13 +8,16 @@ int main() {
     int arr[n];
 
     int prime =0;
+    int nonprimes=0;
 
     for (int i = 1; i <=n; i++) {
         scanf("%d", &arr[i]);
         for(int j=2;j<arr[i];j++){
-            if(arr[i]%j!=0){
-                prime++;}
-        }   
+            if(arr[i]%j=0){
+                nonprimes++;}
+        }   else{
+            prime++;
+        }
 
 
     }
