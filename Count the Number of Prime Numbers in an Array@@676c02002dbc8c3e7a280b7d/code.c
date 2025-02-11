@@ -16,7 +16,7 @@ int main() {
             if(arr[i]%j=0){
                 nonprimes++;}
         }   else{
-            prime++;
+                prime++;
         }
 
 
