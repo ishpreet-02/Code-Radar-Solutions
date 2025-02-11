@@ -14,8 +14,8 @@ int main() {
     for (int i = 1; i < n; i++) {
         scanf("%d", &arr[i]);
         for(int j=2,j<arr[i];j++){
-            arr[i]%j==0;
-            prime++;
+            if(arr[i]%j==0){
+                prime++;}
         }
 
 
