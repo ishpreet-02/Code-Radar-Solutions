@@ -1,4 +1,5 @@
 // Your code here...
+#include<stdio.h>
 int isPrime(int n){
 
     for(int j=2;j<n;j++){
