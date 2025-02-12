@@ -5,11 +5,11 @@ int isPrime(int n){
         scanf("%d",&arr[i]);
         for(int j=2;j<n;j++){
             if(arr[i]%j==0){
-                printf("%d",0);
+                return 0;
 
             }
             else{
-                printf("%d",1);
+                return 1;
             }
         }
     }
