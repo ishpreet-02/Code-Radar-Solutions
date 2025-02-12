@@ -10,11 +10,11 @@ int main(){
         scanf("%d",&a);
         arr[i]=a;
     }
-    for(int i=0;i<n;i++){
+    for(int j=0;j<n;j++){
         int num;
-        num=arr[i];
-        for(int j=0;j<n;j++){
-            if(num=arr[j]){
+        num=arr[j];
+        for(int k=0;k<n;k++){
+            if(num=arr[k]){
                 int count =0;
                 count++;
             }
