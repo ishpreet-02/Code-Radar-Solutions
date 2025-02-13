@@ -15,7 +15,7 @@ int main(){
         if(n%2==0){
             printf("%d",30);
     }}
-    else{
+    if(n%2!=0){
         printf("%d",31);
     }
 }
