@@ -11,7 +11,7 @@ int main() {
     scanf("%d", &arr[0]);
     int non_prime = 0;
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 1; i <= n; i++) {
         scanf("%d", &arr[i]);
         for(int j=2;j<arr[i];j++){
             if((arr[i])%j==0){
