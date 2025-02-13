@@ -10,7 +10,10 @@ int main(){
         printf("%d",28);
 
     }
-    if(n>2){
+    if(n==12){
+        printf("%d",31);
+    }
+    if(n>2 && n!=12){
 
         if(n%2==0){
             printf("%d",30);
