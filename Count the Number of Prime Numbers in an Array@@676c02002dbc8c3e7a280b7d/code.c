@@ -21,6 +21,7 @@ int main() {
 
         }
     }
+    printf("%d",non_prime);
 
     printf("%d",n-non_prime);
     return 0;
