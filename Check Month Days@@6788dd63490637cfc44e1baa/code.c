@@ -8,13 +8,13 @@ int main(){
     }
     if(n==2){
         printf("%d",28);
-        break;
 
     }
-    if(n%2==0){
-        printf("%d",30);
-        break;
-    }
+    if(n>2){
+
+        if(n%2==0){
+            printf("%d",30);
+    }}
     else{
         printf("%d",31);
     }
