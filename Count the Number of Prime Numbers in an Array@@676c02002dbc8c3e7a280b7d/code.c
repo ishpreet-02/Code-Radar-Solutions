@@ -11,10 +11,9 @@ int main() {
     scanf("%d", &arr[0]);
     int non_prime = 0;
 
-    // Read the remaining elements and find min/max in one loop
-    for (int i = 1; i < n; i++) {
+    for (int i = 1; i <= n; i++) {
         scanf("%d", &arr[i]);
-        for(int j=3;j<arr[i];j++){
+        for(int j=2;j<arr[i];j++){
             if((arr[i])%j==0){
                 non_prime++;
             }
