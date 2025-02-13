@@ -25,7 +25,9 @@ int main() {
         }
 
     }
-
+    if(max%2!=0){
+        max=-1;
+    }
     printf("%d",max);
     return 0;
 }
