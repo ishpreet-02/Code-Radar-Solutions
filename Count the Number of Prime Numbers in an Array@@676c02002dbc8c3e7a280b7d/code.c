@@ -7,21 +7,21 @@ int main() {
 
     int arr[n];
 
-    int prime =0;
-    int nonprimes=0;
+    // Input the first element and initialize min and max
+    scanf("%d", &arr[0]);
+    int non_prime = 0;
 
-    for (int i = 1; i <=n; i++) {
+    // Read the remaining elements and find min/max in one loop
+    for (int i = 1; i < n; i++) {
         scanf("%d", &arr[i]);
         for(int j=2;j<arr[i];j++){
-            if(arr[i]%j==0){
-                nonprimes++;}
-            else{
-                prime++;
+            if((arr[i])%j==0){
+                non_prime++;
+            }
+
         }
+    }
 
-
-    }}
-
-    printf("%d",prime);
+    printf("%d",n-non_prime);
     return 0;
 }
