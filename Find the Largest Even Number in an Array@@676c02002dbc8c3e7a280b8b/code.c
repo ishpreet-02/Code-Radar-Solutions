@@ -16,8 +16,12 @@ int main() {
     for (int i = 1; i < n; i++) {
         scanf("%d", &arr[i]);
 
-        if ((arr[i])%2==0>max) {
-            max = arr[i];
+        if ((arr[i])%2==0) 
+        {
+            if(arr[i]>max){
+                max = arr[i];
+
+            }
         }
 
     }
