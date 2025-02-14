@@ -9,6 +9,7 @@ int main(){
         scanf("%d",&arr[i]);
         if(arr[i]==arr[n-1]){
             printf("%d",arr[i]);
+            break;
 
         }
         else{
