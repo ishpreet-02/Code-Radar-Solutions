@@ -15,10 +15,10 @@ int main(){
         }
     }
     else if(isdigit(c)){
-        printf("Digit")
+        printf("Digit");
     }
     else{
-        printf("Special Character")
+        printf("Special Character");
     }
 
 }
