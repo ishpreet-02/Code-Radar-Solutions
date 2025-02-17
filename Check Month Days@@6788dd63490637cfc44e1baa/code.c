@@ -6,14 +6,14 @@ int main(){
     if(n>12){
         printf("Invalid month");
     }
-    if(n==2){
+    else if(n==2){
         printf("%d",28);
 
     }
-    if(n==12){
+    else if(n==12){
         printf("%d",31);
     }
-    if(n>2 && n<12){
+    else if(n>2 && n<12){
 
         if(n%2==0){
             printf("%d",30)};
