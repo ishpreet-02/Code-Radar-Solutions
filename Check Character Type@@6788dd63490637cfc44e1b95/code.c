@@ -1,4 +1,4 @@
-#include<srdio.h>
+#include<stdio.h>
 #include<ctype.h>
 int main()1{
     char a;
