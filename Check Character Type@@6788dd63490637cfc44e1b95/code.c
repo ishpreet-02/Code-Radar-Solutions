@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<ctype.h>
-int main()1{
+int main(){
     char a;
     scanf("%d",&a);
     if(isalpha(a)){
