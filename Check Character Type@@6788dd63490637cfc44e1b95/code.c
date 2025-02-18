@@ -2,7 +2,7 @@
 #include<ctype.h>
 int main(){
     char a;
-    scanf("%d",&a);
+    scanf("%c",&a);
     if(isalpha(a)){
         char lowercase=tolower(a);
         if(lowercase=='a'||lowercase=='e'||lowercase=='i'||lowercase=='o'||lowercase=='u'){
