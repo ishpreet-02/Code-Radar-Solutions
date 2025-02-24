@@ -10,7 +10,8 @@ int main() {
     }
     for (int i = 0; i < n; i++) {
         if (arr[i] == arr[n-1]) {
-            printf("%d", arr[i]); 
+            printf("%d", arr[i]);
+            break; 
             return 0; 
         }
     }
