@@ -13,7 +13,6 @@ int main() {
             printf("%d", arr[i]);
             return 0;
         }
-        break;
     }
 
     printf("-1");
