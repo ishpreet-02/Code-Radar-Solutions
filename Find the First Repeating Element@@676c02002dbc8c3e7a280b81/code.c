@@ -12,8 +12,8 @@ int main() {
         if (arr[i] == arr[n-i]) {
             printf("%d", arr[i]);
             return 0;
-            break; 
         }
+        break;
     }
 
     printf("-1");
