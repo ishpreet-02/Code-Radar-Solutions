@@ -13,7 +13,7 @@ int main(){
             result+=digit;
             num=num/10;
         }
-        return result;
+        printf("%d",result);
 
     }
     for(int i=0;i<n;i++){
