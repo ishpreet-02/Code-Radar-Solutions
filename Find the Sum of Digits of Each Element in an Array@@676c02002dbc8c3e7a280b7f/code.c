@@ -5,11 +5,11 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     void sum(int n){
-        int n;
+        int num=n;
         int digit=0;
         while(n>0){
-            digit=n*10+n%10;
-            n=n/10;
+            digit=num*10+num%10;
+            num=num/10;
         }
         return digit;
 
