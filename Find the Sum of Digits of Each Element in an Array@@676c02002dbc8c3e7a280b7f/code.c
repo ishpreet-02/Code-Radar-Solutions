@@ -7,11 +7,13 @@ int main(){
     void sum(int n){
         int num=n;
         int digit=0;
+        int result=0;
         while(num>0){
-            digit=num*10+num%10;
+            digit=num%10;
+            result+=digit;
             num=num/10;
         }
-        return digit;
+        return result;
 
     }
     for(int i=0;i<n;i++){
