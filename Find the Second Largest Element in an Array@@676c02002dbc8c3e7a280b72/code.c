@@ -13,8 +13,15 @@ void second_largest(int arr[], int n){
 
         }
 
+
         }
-    printf("%d",second_largest);
+    if(largest==second_largest){
+        printf("%d",-1);
+    }
+    else{
+        printf("%d",second_largest);
+      
+    }
     }
 
 int main(){
