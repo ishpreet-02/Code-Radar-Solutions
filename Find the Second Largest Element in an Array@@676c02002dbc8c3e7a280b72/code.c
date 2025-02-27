@@ -1,15 +1,15 @@
 // Your code here...
 #include<stdio.h>
 void second_largest(int arr[], int n){
-    largest=arr[0];
-    second_largest=-1;
+    int largest=arr[0];
+    int second_largest=-1;
     for(int i=0;i<n;i++){
         if(arr[i]>largest){
             second_largest=largest;
             largest=arr[i];
         }
         else if (arr[i]<largest && arr[i]>second_largest){
-            second_largest=a[i];
+            second_largest=arr[i];
 
         }
 
