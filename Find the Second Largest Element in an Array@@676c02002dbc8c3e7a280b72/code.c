@@ -16,7 +16,7 @@ void second_largest(int arr[], int n){
 
 
         }
-    if(largest==second_largest){
+    if(second_largest==INT_MIN){
         printf("%d",-1);
     }
     else{
