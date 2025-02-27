@@ -1,8 +1,9 @@
 // Your code here...
 #include<stdio.h>
+#include <limits.h>
 void second_largest(int arr[], int n){
     int largest=arr[0];
-    int second_largest=-1;
+    int second_largest=INT_MIN;
     for(int i=0;i<n;i++){
         if(arr[i]>largest){
             second_largest=largest;
