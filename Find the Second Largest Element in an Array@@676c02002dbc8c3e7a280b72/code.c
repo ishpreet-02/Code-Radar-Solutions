@@ -2,7 +2,7 @@
 #include<stdio.h>
 void second_largest(int arr[], int n){
     int largest=arr[0];
-    int second_largest=-100;
+    int second_largest=-1;
     for(int i=0;i<n;i++){
         if(arr[i]>largest){
             second_largest=largest;
