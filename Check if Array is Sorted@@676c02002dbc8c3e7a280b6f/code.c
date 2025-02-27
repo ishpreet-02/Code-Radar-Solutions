@@ -5,7 +5,6 @@ int main(){
     int n;
     scanf("%d",&n);
     int arr[n];
-    arr[-1]=-10;
     for(int i=1;i<n;i++){
         scanf("%d",&arr[i]);
         if(arr[i]<arr[i-1]){
