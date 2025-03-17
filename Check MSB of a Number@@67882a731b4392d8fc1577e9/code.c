@@ -8,5 +8,12 @@ int main(){
         n=n/2;
         count++;
     }
-    printf("%d",count);
+    if(count==0){
+        printf("Set");
+        
+    }
+    else{
+        print("Not Set");
+    }
+    
 }
