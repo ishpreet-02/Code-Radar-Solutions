@@ -15,7 +15,10 @@ int main() {
         scanf("%d", &arr[i]);
 
         if (arr[i] < min) {
-            min=smin;
+            if(min<smin){
+                min=smin;
+
+            }
             smin = arr[i];
             
         }
