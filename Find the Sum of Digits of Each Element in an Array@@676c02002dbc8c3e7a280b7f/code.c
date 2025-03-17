@@ -8,12 +8,25 @@ int main(){
         int num=n;
         int digit=0;
         int result=0;
-        while(num>0){
-            digit=num%10;
-            result+=digit;
-            num=num/10;
+        int a=0;
+        if(num<0){
+            a=-num;
+            while(a>0){
+                digit=a%10;
+                result+=digit;
+                a=a/10;
         }
-        printf("%d ",result);
+            printf("%d ",result);
+        }
+        else{
+            while(num>0){
+                digit=num%10;
+                result+=digit;
+                num=num/10;
+            }
+            printf("%d ",result);
+        }
+
 
     }
     for(int i=0;i<n;i++){
