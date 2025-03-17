@@ -1,9 +1,10 @@
 // Your code here...
 #include<stdio.h>
 void binary(int n){
+    int a;
     while(n>0){
-        n=n%2;
-        printf("%d",n);
+        a=n%2;
+        printf("%d",a);
         n=n/2;
         
     }
