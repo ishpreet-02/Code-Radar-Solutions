@@ -13,7 +13,7 @@ int main(){
         
     }
     else{
-        print("Not Set");
+        printf("Not Set");
     }
     
 }
