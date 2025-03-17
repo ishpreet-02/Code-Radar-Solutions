@@ -21,6 +21,6 @@ int main() {
 
     }
 
-    printf("%d", smin);
+    printf("%d", min);
     return 0;
 }
