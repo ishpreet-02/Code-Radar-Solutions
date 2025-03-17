@@ -1,19 +1,8 @@
-// Your code here...
-#include<stdio.h>
-int main(){
-    int n;
-    int count;
-    scanf("%d",&n);
-    while(n>0){
-        n=n/2;
-        count++;
-    }
-    if(count==0){
-        printf("Set");
-        
-    }
-    else{
-        printf("Not Set");
-    }
-    
+#include <stdio.h>
+
+int main() {
+    int a;
+    scanf("%d %d", &a);
+    printf((a >> 31) & (1)? "Set" : "Not Set");
+    return 0;
 }
