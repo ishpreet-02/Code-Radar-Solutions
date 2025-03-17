@@ -4,7 +4,7 @@ void binary(int n){
     int a;
     while(n>0){
         a=n%2;
-        printf("%d",a);
+        printf("%d",a/2);
         n=n/2;
         
     }
