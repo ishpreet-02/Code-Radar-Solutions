@@ -2,7 +2,7 @@
 
 void second_largest(int arr[], int n) {
     if (n < 2) {  
-        printf("-1\n"); .
+        printf("-1\n");
         return;
     }
 
