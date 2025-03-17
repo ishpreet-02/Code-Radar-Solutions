@@ -5,7 +5,7 @@ int main(){
     int count;
     scanf("%d",&n);
     while(n>0){
-        n=n%2;
+        n=n/2;
         count++;
     }
     if(count==0){
