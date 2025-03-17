@@ -2,13 +2,12 @@
 
 void second_largest(int arr[], int n) {
     if (n < 2) {  
-        printf("-1\n");  // If there are fewer than 2 elements, no second largest exists.
+        printf("-1\n"); .
         return;
     }
 
     int largest = arr[0];
-    int second_largest = -1; // Assume no second largest initially.
-
+    int second_largest = -1; 
     for (int i = 1; i < n; i++) { 
         if (arr[i] > largest) {
             second_largest = largest;
@@ -18,14 +17,14 @@ void second_largest(int arr[], int n) {
         }
     }
 
-    printf("%d\n", (second_largest == -1) ? -1 : second_largest); // Print -1 if no second largest exists.
+    printf("%d\n", (second_largest == -1) ? -1 : second_largest); 
 }
 
 int main() {
     int n;
     scanf("%d", &n);
 
-    int arr[n]; // Valid in C99+
+    int arr[n]; 
     
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
