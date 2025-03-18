@@ -15,6 +15,7 @@ int main(){
             }
             if(a==1){
                 printf("%d",j);
+                break;
             }
         }
 
