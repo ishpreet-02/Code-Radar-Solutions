@@ -13,11 +13,12 @@ int main(){
             if(arr[k]!=j){
                 a=1;
             }
-            if(a==1){
-                printf("%d",j);
-                break;
-            }
+
         }
+        if(a==1){
+            printf("%d",j);
+            break;
+            }
 
     }
 }
