@@ -11,7 +11,7 @@ int main() {
             printf("%d ",num-i+j);
         }
         printf("\n");
-        num=1;
+        num=1+i;
     }
 
     return 0;
