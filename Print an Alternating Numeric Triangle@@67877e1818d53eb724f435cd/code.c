@@ -11,6 +11,7 @@ int main() {
             printf("%d",num-j-i);
         }
         printf("\n");
+        num=0;
     }
 
     return 0;
