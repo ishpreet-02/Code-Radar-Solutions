@@ -9,17 +9,13 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    for(int j=1;j<=n;j++){
-        if(num!=arr[j]){
-            a=num;
+    for(int j=0;j<=n;j++){
+        for(int k=0;k<n;k++){
+            if(arr[k]==j)
+        }
 
-        }
-        else{
-            num++;
-        }
 
 
 
     }
-    printf("%d",a);
 }
