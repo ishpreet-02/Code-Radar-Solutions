@@ -11,6 +11,9 @@ int main() {
             if(j%2!=0){
                 num=1;
             }
+            else{
+                num=0;
+            }
             num=num^1;
             printf("%d ",num);
 
