@@ -8,10 +8,16 @@ int main() {
     int num=1;
     for(int i=0;i<n;i++){
         for(int j=0;j<=i;j++){
-            printf("%d ",num-i+j);
+            if(num>2){
+                printf("%d",1);
+            }
+            else{
+                printf("%d ",num-i+j);
+            }
+            
         }
         printf("\n");
-        num=1+i;
+        num=1;
     }
 
     return 0;
