@@ -10,7 +10,7 @@ int main(){
     }
     for(int j=1;j<=n;j++){
         for(int k=0;k<n;k++){
-            if(arr[k]!=j){
+            if(arr[k]>0 && arr[k]!=j){
                 a=1;
             }
 
