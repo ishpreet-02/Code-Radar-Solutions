@@ -8,7 +8,7 @@ int main() {
     int num=0;
     for(int i=0;i<n;i++){
         for(int j=0;j<=i;j++){
-            if(i%2!=0){
+            if(j%2!=0){
                 num=1;
             }
             num=num^1;
