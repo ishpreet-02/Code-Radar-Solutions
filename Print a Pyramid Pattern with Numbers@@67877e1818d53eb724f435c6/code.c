@@ -11,10 +11,10 @@ int main(){
 
         }
         for(int k=1;k<=i;k++){
-            printf("%d ",num);
-            num++;
+            printf("%d ",k);
+
         }
         printf("\n");
-        num=1;
+
     }
 }
