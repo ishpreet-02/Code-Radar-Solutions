@@ -8,7 +8,7 @@ void bubbleSort(int arr[],int n){
                 arr[j]=arr[j+1];
                 arr[j+1]=temp;
                 swap=1;
-                break;
+                
 
             }
         }
@@ -19,6 +19,6 @@ void bubbleSort(int arr[],int n){
 }
 void printArray(int arr[],int n){
     for(int i=0;i<n;i++){
-        printf("%d",arr[i]);
+        printf("%d ",arr[i]);
     }
 }
