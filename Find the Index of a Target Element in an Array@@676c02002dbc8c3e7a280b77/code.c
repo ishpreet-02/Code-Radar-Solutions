@@ -11,13 +11,10 @@ int main(){
     int num;
     scanf("%d",&num);
     for(int i=0;i<n;i++){
-
         if(arr[i]==num){
             printf("%d",i);    
             return 0;      
         }
-
-
         }
         printf("%d",-1);
         return 0;
