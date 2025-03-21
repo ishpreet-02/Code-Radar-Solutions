@@ -13,9 +13,10 @@ int main(){
     for(int j=0;j<n;j++){
         int num;
         num=arr[j];
+        int count =0;
         for(int k=0;k<n;k++){
             if(num=arr[k]){
-                int count =0;
+                
                 count++;
             }
         }
