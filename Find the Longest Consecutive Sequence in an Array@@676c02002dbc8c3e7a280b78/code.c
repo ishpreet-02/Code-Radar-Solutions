@@ -24,7 +24,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     bubbleSort(arr,n);
-    int count=0
+    int count=0;
     for(int i=1;i<n;i++){
         if((arr[i]-1)==arr[i-1]){
             count++;
