@@ -4,8 +4,8 @@
 void printPrimesInRange(int a,int b) {
     int count = 0; 
 
-    for(int i=a;i<=20;i++){
-        for (int j = 1; j <= b; i++) {
+    for(int i=a;i<=b;i++){
+        for (int j = a+1; j <= b; i++) {
             if (i % j == 0) {
                 count++;
         }
