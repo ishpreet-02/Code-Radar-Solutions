@@ -2,12 +2,12 @@ int printPrimesInRange(int a,int b) {
     int count = 0; 
 
     for(int i=a;i<=b;i++){
-        for (int j = i+1; j <= b; j++) {
+        for (int j=2; j*j<= i; j++) {
             if (i % j == 0) {
                 count++;
         }
         }
-        if (count <2){
+        if (count ==0){
             printf("%d ",i);
         } 
     }
