@@ -1,6 +1,3 @@
-// Your code here...
-#include <stdio.h>
-
 void printPrimesInRange(int a,int b) {
     int count = 0; 
 
