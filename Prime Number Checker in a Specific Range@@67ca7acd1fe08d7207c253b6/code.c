@@ -9,8 +9,9 @@ int printPrimesInRange(int a,int b) {
         }
         if (count ==1){
             printf("%d ",i);
-            count=0;
+            
         } 
+        count=0;
     }
 
     }
