@@ -3,9 +3,9 @@
 #include<stdio.h>
 void rotate(int arr[], int n) {
     
-    for (int i = 0; i < n - 1; i++) {
+    for (int i = 0; i < n; i++) {
         int first = arr[i];
-        arr[i] = arr[n-i];
+        arr[i] = arr[n-i-1];
         arr[n-i] = first;
     }
     
