@@ -5,12 +5,14 @@ int selectionSort(int arr[],int n){
         for(int j=i+1;j<n;j++){
 
             if(arr[mini]>arr[j]){
-                int temp=arr[mini];
-                arr[mini]=arr[j];
-                arr[j]=temp;
+                int mini=j
+              
 
             }
         }
+        int temp=arr[i];
+        arr[i]=arr[j];
+        arr[j]=temp;
     }
 }
 void printArray(int arr[],int n){
