@@ -16,11 +16,11 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int rotate;
-    scanf("%d",&rotate);
+    int rotate_no;
+    scanf("%d",&rotate_no);
     rotate(arr,n);
     for(int i=0;i<n;i++){
-        printf("%d\n");
+        printf("%d\n",arr[i]);
 
     }
 
