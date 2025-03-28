@@ -6,7 +6,7 @@ void rotate(int arr[], int n) {
     for (int i = 0; i < n; i++) {
         int first = arr[i];
         arr[i] = arr[n-1];
-        arr[n-i] = first;
+        arr[n-1] = first;
     }
     
 }
