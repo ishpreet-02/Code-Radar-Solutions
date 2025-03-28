@@ -1,12 +1,12 @@
 // Your code here...
 // Your code here...
 #include<stdio.h>
-void rotate(int arr[], int n) {
+void rotate(int arr[], int n,int m) {
     
     for (int i = 0; i < n; i++) {
         int first = arr[i];
-        arr[i] = arr[n-1];
-        arr[n-1] = first;
+        arr[i] = arr[n-m];
+        arr[n-m] = first;
     }
     
 }
@@ -20,7 +20,7 @@ int main(){
     }
     int rotate_no;
     scanf("%d",&rotate_no);
-    rotate(arr,n);
+    rotate(arr,n,rotate_no);
     for(int i=0;i<n;i++){
         printf("%d\n",arr[i]);
 
