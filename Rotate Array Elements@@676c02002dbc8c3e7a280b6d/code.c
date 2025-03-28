@@ -5,8 +5,8 @@ void rotate(int arr[], int n,int m) {
     
     for (int i = 0; i < n; i++) {
         int first = arr[i];
-        arr[i] = arr[n-m];
-        arr[n-m] = first;
+        arr[i] = arr[n-m-1];
+        arr[n-m-1] = first;
     }
     
 }
