@@ -20,7 +20,7 @@ int main(){
     scanf("%d",&rotate);
     rotate(arr,n);
     for(int i=0;i<n;i++){
-        printf("%d\n")
+        printf("%d\n");
 
     }
 
