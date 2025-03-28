@@ -1,7 +1,7 @@
 // Your code here...
 // Your code here...
 #include<stdio.h>
-void leftRotateByOne(int arr[], int n) {
+void rotate(int arr[], int n) {
     int first = arr[0];
     for (int i = 0; i < n - 1; i++) {
         arr[i] = arr[i + 1];
