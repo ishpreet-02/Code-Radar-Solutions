@@ -1,12 +1,12 @@
 // Your code here...
 // Your code here...
 #include<stdio.h>
-int rotate(int arr[],int n){
-    for(int i=0;i<n;i++){
-        int temp=arr[i];
-        arr[i]=arr[n-i-1];
-        arr[n-i-1]=temp;
+void leftRotateByOne(int arr[], int n) {
+    int first = arr[0];
+    for (int i = 0; i < n - 1; i++) {
+        arr[i] = arr[i + 1];
     }
+    arr[n - 1] = first;
 }
 int main(){
     int n;
