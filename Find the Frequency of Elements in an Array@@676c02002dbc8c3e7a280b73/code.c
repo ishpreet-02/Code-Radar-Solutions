@@ -29,7 +29,7 @@ int main(){
         } else {
             printf("%d %d\n", arr[i - 1], count);
             count = 1; 
-    }
+    }}
     return 0;
 
 
