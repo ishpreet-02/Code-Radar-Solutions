@@ -4,15 +4,15 @@
 int main() {
     int n;
     scanf("%d",&n);
-    char c='A';
+
     for(int i=0;i<n;i++){
         for(int j=0;j<=i;j++){
-            printf("%c ",c);
-            c++;
+            printf("%c ",65+j);
+           
 
         }
         printf("\n");
-        c='A';
+        
     }
     return 0;
 }
