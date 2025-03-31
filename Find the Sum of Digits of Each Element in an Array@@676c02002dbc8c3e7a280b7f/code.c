@@ -4,8 +4,8 @@ void sum_of_digit(int a){
         int b=-a;
         int sum=0;
         while(b>0){
-            sum=sum+a%10;
-            a=a/10;
+            sum=sum+b%10;
+            b=a/10;
         }
         printf("%d ",sum);        
     }
