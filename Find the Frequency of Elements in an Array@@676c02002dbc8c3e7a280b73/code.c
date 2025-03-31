@@ -22,20 +22,14 @@ int main(){
 
     }
     bubbleSort(arr,n);
-    for(int j=0;j<n;j++){
-        int count =0;
-        for(int k=0;k<n;k++){
-            if(arr[j]==arr[k]&& arr[j]!=arr[j-1]){
-                
-                count++;
-            }
+    int count = 1;  
+    for (int i = 1; i <= n; i++) {  
+        if (arr[i] == arr[i - 1]) {
+            count++;
+        } else {
+            printf("%d %d\n", arr[i - 1], count);
+            count = 1; // Reset count for next number
         }
-        if(count!=0){
-            printf("%d %d\n",arr[j],count);
-
-        }
-
-
     }
     return 0;
 
