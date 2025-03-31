@@ -1,10 +1,8 @@
 #include <stdio.h>
 void sum_of_digit(int a){
-
+    int sum=0;
     if(a<0){
-        a=-a;
-
-              
+        a=-a;     
     }
     
     
