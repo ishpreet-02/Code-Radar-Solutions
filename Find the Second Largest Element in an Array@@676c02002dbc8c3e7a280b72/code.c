@@ -17,6 +17,10 @@ void second_largest(int arr[], int n) {
             second_max=arr[i];
         }
     }
+    if(second_max==-100){
+        printf("%d",-1);
+        return;
+    }
     printf("%d",second_max);
 }
 
