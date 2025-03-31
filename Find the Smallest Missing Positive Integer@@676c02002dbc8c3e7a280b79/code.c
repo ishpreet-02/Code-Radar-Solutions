@@ -10,7 +10,7 @@ int main(){
     for(int i=1;i<45;i++){
         int present=0;
         for(int j=0;j<n;j++){
-            if(arr[i]==i){
+            if(arr[j]==i){
                 present=1;
                 break;
             }
