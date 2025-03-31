@@ -1,17 +1,16 @@
-// Your code here...#include <stdio.h>
 #include <stdio.h>
 
 void replaceWithGreatest(int arr[], int n) {
-    int max_right = -1;  // The rightmost element should be replaced with -1
-
-    // Traverse from right to left
-    for (int i = n - 1; i >= 0; i--) {
-        int temp = arr[i]; // Store the current value before modifying it
-        arr[i] = max_right; // Replace with the maximum found so far
-        if (temp > max_right) {
-            max_right = temp; // Update max_right if current is greater
+    for (int i = 0; i < n - 1; i++) {
+        int max = arr[i + 1]; // Assume next element is the greatest
+        for (int j = i + 1; j < n; j++) {
+            if (arr[j] > max) {
+                max = arr[j]; // Update max if a greater element is found
+            }
         }
+        arr[i] = max; // Replace current element with max found
     }
+    arr[n - 1] = -1; // Last element should be -1
 }
 
 int main() {
