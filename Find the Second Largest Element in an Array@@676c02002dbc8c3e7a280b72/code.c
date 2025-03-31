@@ -1,23 +1,17 @@
 #include <stdio.h>
 
 void second_largest(int arr[], int n) {
-    if (n < 2) {  
-        printf("-1\n");
-        return;
-    }
-
-    int largest = arr[0];
-    int second_largest = -1; 
-    for (int i = 1; i < n; i++) { 
-        if (arr[i] > largest) {
-            second_largest = largest;
-            largest = arr[i];
-        } else if (arr[i] < largest && (second_largest == -1 || arr[i] > second_largest)) {
-            second_largest = arr[i];
+    int max=arr[0];
+    int second_max=-100;
+    for(int i=0;i<n;i++){
+        if(arr[i]>largest){
+            second_max=largest;
+            largest=arr[i];
+        }
+        if(arr[i]<largest && arr[i]>second_max){
+            second_max=arr[i];
         }
     }
-
-    printf("%d\n", (second_largest == -1) ? -1 : second_largest); 
 }
 
 int main() {
