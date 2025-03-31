@@ -1,24 +1,33 @@
-// Your code here...scan
-#include<stdio.h>
+#include <stdio.h>
+void bubble_sort(int arr[],int n){
+    for(int i=n-1;>=0;i--){
+        for(int j=0;j<=i-1;j++){
+            if(arr[j]>arr[j+1]){
+                int temp=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=temp;
+            }
+        }
+    }
+}
 int main(){
     int n;
     scanf("%d",&n);
     int arr[n];
-    int a=0;
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    for(int j=1;j<=n;j++){
-        for(int k=0;k<n;k++){
-            if(arr[k]>0 && arr[k]!=j){
-                a=1;
+    bubble_sort(arr,n);
+    for(int i=1;i<45;i++){
+        int present=0;
+        for(int j=0;j<n;j++){
+            if(arr[i]==i){
+                present=1;
             }
-
         }
-        if(a==1){
-            printf("%d",j);
+        if(present==0){
+            printf("%d",i);
             break;
-            }
-
+        }
     }
 }
