@@ -1,17 +1,13 @@
 #include <stdio.h>
-
-
-int main() {
+int main(){
     int n;
     scanf("%d",&n);
-    char c='A';
-    for(int i=1;i<=n;i++){
-        for(int j=n;j>=i;j--){
-            printf("%c ",c);
-            c++;
+    for(int i=0;i<n;i++){
+        int a=65;
+        for(int j=n;j>i;j--){
+            printf("%c ",a);
+            a++;
         }
         printf("\n");
-        c='A';
     }
-    return 0;
 }
