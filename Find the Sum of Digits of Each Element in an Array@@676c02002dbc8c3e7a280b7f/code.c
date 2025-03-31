@@ -9,7 +9,7 @@ void sum_of_digit(int a){
         }
               
     }
-    prinf("%d",sum);
+    printf("%d",sum);
     int sum=0;
     while(a>0){
         sum=sum+a%10;
