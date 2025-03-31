@@ -43,7 +43,7 @@ int main(){
         for(int j=0;j<n-1-i;j++){
             printf(" ");
         }
-        for(int k=0;k<(2*i);k++){
+        for(int k=(2*i);k>0;k--){
             printf("*");
         }
         printf("\n");
