@@ -4,11 +4,11 @@ void second_largest(int arr[], int n) {
     int max=arr[0];
     int second_max=-100;
     for(int i=0;i<n;i++){
-        if(arr[i]>largest){
+        if(arr[i]>max){
             second_max=largest;
             largest=arr[i];
         }
-        if(arr[i]<largest && arr[i]>second_max){
+        if(arr[i]<max && arr[i]>second_max){
             second_max=arr[i];
         }
     }
