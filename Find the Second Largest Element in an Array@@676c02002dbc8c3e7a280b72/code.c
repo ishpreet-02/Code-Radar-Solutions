@@ -1,6 +1,10 @@
 #include <stdio.h>
 
 void second_largest(int arr[], int n) {
+    if(n<2){
+        printf("%d",-1);
+        return 0;
+    }
     int max=arr[0];
     int second_max=-100;
     for(int i=0;i<n;i++){
