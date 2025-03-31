@@ -13,7 +13,7 @@ int main(){
     for(int j=0;j<n;j++){
         int count =0;
         for(int k=0;k<n;k++){
-            if(arr[j]=arr[k]){
+            if(arr[j]==arr[k]){
                 
                 count++;
             }
