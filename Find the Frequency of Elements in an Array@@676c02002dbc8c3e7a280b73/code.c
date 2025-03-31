@@ -23,12 +23,12 @@ int main(){
     }
     bubbleSort(arr,n);
     int count = 1;  
-    for (int i = 1; i <= n; i++) {  
+    for (int i = 1; i < n; i++) {  
         if (arr[i] == arr[i - 1]) {
             count++;
         } else {
             printf("%d %d\n", arr[i - 1], count);
-            count = 1; // Reset count for next number
+            count = 1; 
         }
     }
     return 0;
