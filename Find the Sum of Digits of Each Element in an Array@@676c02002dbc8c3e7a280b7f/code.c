@@ -2,7 +2,7 @@
 void sum_of_digit(int a){
     int sum=0;
     while(a>0){
-        sum=sum*10+a%10;
+        sum=sum+a%10;
         a=a/10;
     }
     printf("%d",sum);
@@ -12,7 +12,7 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
+        scanf("%d ",&arr[i]);
         int a=arr[i];
         sum_of_digit(a);
     }
