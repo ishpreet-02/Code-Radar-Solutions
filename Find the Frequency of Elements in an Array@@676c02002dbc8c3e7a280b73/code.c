@@ -35,4 +35,3 @@ int main(){
 
 
 }
-maine yeh kiya ismein ek test case nhi chal rha
