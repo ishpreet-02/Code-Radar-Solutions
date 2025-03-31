@@ -3,6 +3,7 @@
 void second_largest(int arr[], int n) {
     if(n<2){
         printf("%d",-1);
+        return;
         
     }
     int max=arr[0];
