@@ -23,6 +23,7 @@ int main(){
         for(int j=0;j<n;j++){
             if(arr[i]==i){
                 present=1;
+                break;
             }
         }
         if(present==0){
