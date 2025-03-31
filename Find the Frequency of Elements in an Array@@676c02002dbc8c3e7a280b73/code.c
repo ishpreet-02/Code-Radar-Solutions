@@ -24,7 +24,7 @@ int main(){
     bubbleSort(arr,n);
     for(int j=0;j<n;j++){
         int count =0;
-        for(int k=j;k<n;k++){
+        for(int k=0;k<n;k++){
             if(arr[j]==arr[k]&& arr[j]!=arr[j-1]){
                 
                 count++;
