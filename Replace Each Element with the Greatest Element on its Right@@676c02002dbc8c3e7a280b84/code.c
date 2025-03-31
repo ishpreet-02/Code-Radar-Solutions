@@ -1,4 +1,5 @@
 // Your code here...#include <stdio.h>
+#include <stdio.h>
 
 void replaceWithGreatest(int arr[], int n) {
     int max_right = -1;  // The rightmost element should be replaced with -1
