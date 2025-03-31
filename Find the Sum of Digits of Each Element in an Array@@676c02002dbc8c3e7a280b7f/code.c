@@ -1,5 +1,14 @@
 #include <stdio.h>
 void sum_of_digit(int a){
+    if(a<0){
+        int b=-a;
+        int sum=0;
+        while(b>0){
+            sum=sum+a%10;
+            a=a/10;
+        }
+        printf("%d ",sum);        
+    }
     int sum=0;
     while(a>0){
         sum=sum+a%10;
