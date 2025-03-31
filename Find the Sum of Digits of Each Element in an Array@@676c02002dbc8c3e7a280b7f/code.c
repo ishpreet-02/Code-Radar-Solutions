@@ -5,7 +5,7 @@ void sum_of_digit(int a){
         sum=sum+a%10;
         a=a/10;
     }
-    printf("%d",sum);
+    printf("%d ",sum);
 }
 int main(){
     int n;
