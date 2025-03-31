@@ -30,7 +30,10 @@ int main(){
                 count++;
             }
         }
-        printf("%d %d\n",arr[j],count);
+        if(count!=0){
+            printf("%d %d\n",arr[j],count);
+
+        }
 
 
     }
