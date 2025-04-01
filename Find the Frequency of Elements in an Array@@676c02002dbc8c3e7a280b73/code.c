@@ -5,7 +5,7 @@ int main()
     int arr1[100], fr1[100];
     int n, i, j, ctr;
     scanf("%d", &n);
-    printf("%d", n);
+   
     for (i = 0; i < n; i++)
     {
         
