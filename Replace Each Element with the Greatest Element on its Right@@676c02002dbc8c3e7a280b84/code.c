@@ -2,16 +2,15 @@
 
 void replaceWithGreatest(int arr[], int n) {
     for (int i = 0; i < n - 1; i++) {
-        int max = arr[i + 1]; // Assume next element is the greatest
+        int max = arr[i + 1];
         for (int j = i + 1; j < n; j++) {
             if (arr[j] > max) {
-                max = arr[j]; // Update max if a greater element is found
+                max = arr[j]; 
             }
         }
-        arr[i] = max; // Replace current element with max found
+        arr[i] = max; 
     }
-    arr[n - 1] = -1; // Last element should be -1
-}
+    arr[n - 1] = -1; 
 
 int main() {
     int n;
