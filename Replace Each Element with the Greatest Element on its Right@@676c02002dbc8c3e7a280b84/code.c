@@ -11,6 +11,7 @@ void replaceWithGreatest(int arr[], int n) {
         arr[i] = max; 
     }
     arr[n - 1] = -1; 
+}
 
 int main() {
     int n;
