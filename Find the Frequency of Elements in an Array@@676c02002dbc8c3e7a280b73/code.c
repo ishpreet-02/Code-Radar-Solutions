@@ -8,7 +8,7 @@ int main()
     printf("%d", n);
     for (i = 0; i < n; i++)
     {
-        printf("element - %d : ", i);
+        printf("%d", i);
         scanf("%d", &arr1[i]);
         fr1[i] = -1; 
     }
