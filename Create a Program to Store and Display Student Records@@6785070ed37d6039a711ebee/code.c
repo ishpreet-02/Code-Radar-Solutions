@@ -1,4 +1,6 @@
 // Your code here...
+#include<stdio.h>
+
 struct student{
     int roll;
     char name;
