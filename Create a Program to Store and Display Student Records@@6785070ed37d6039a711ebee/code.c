@@ -14,13 +14,13 @@ int main(){
     for (int i = 0; i < n; i++) {
         scanf("%d", &s[i].roll);
         scanf("%s", s[i].name);
-        scanf("%f", &s[i].fees);  
+        scanf("%f", &s[i].marks);  
 
     }
     for (int i = 0; i < n; i++) {
         printf("Roll Number: %d, ", s[i].roll);       
         printf("Name: %s, ", s[i].name);
-        printf("Marks: %.2f\n", stud[i].fees);
+        printf("Marks: %.2f\n", s[i].marks);
 
     }
 
