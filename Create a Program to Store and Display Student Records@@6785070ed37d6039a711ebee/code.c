@@ -3,7 +3,7 @@
 
 struct student{
     int roll;
-    char name;
+    char name[50];
     float marks;
 
 };
