@@ -10,7 +10,7 @@ struct student{
 int main(){
     int n;
     scanf("%d",&n);
-    struct student as s;
+    struct student s[n];
     for (i = 0; i < n; i++) {
         scanf("%d", &s[i].roll);
         scanf("%s", s[i].name);
